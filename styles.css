@@ -4,7 +4,7 @@
       hsla(148, 93%, 6%, 0.5),
       rgba(1, 29, 14, 0.5)
     ),
-    url(/images/header-photo.jpg);
+    url(./images/header-photo.jpg);
   background-position: center center;
   background-size: cover;
   height: 100vh;
@@ -155,7 +155,7 @@
       rgb(208, 242, 190, 0.28),
       rgb(208, 242, 190, 0.28)
     ),
-    url(/images/ourclients.jpg);
+    url(./images/ourclients.jpg);
   background-size: cover;
   background-position: center center;
 }
@@ -175,7 +175,7 @@
 
 .google-reviews {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/images/googleReviews.jpg);
+    url(./images/googleReviews.jpg);
   background-size: cover;
   background-position: center center;
 }
@@ -298,7 +298,7 @@
       hsla(148, 34%, 20%, 35%),
       hsla(148, 34%, 20%, 35%)
     ),
-    url(/images/location-and-info.jpg);
+    url(./images/location-and-info.jpg);
   background-size: cover;
   background-position: center bottom;
 }
