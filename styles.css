@@ -1,0 +1,317 @@
+.site-header {
+  position: relative;
+  background-image: linear-gradient(
+      hsla(148, 93%, 6%, 0.5),
+      rgba(1, 29, 14, 0.5)
+    ),
+    url(/images/header-photo.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.site-header-navbar {
+  position: absolute;
+  width: 100%;
+  top: 20px;
+}
+
+.option-menu-hover:hover {
+  color: #e3550d;
+}
+
+.icon-white-tree {
+  width: 100px;
+  height: 84px;
+}
+
+.page-main-title {
+  font-size: 50px;
+  line-height: 1.1;
+  text-shadow: -1px -1px 0 #541d01;
+  animation-name: slideinup;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+}
+
+.header-text {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  opacity: 0;
+  transform: translateY(30px);
+  animation-name: slideinup;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideinup {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-family: Quattrocento;
+}
+
+@media (min-width: 576px) {
+  .page-main-title {
+    font-size: 75px;
+  }
+  .header-text {
+    font-size: 1.5rem;
+    margin-top: 1.1rem !important;
+  }
+  .section-title {
+    font-size: 1.5rem;
+  }
+}
+
+.text-bg-burger-menu {
+  color: #fff !important;
+  background-color: #214331 !important;
+}
+
+.products {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88));
+  background-size: cover;
+  box-sizing: inherit;
+}
+
+.product-title {
+  font-size: 17px;
+}
+
+.product-description {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .product-description {
+    font-size: 18px;
+  }
+  .product-title {
+    font-size: 22px;
+  }
+}
+
+.products-overlay {
+  filter: blur(5px) sepia(1) opacity(50%);
+  overflow: hidden;
+}
+
+.products-carousel {
+  max-width: 936px;
+  margin: 0 auto;
+}
+
+.carousel-caption {
+  background-color: rgba(33, 67, 49, 1);
+  width: 100%;
+  left: auto;
+  right: auto;
+  bottom: 0;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .carousel-caption {
+    position: absolute;
+  }
+}
+
+#carousel-overlay .carousel-item {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.see-all-link {
+  color: white;
+}
+
+.see-all-link:hover {
+  transform: scale(1.05);
+  color: #c85000;
+}
+
+.card-title {
+  color: #214331 !important;
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.our-clients {
+  background-image: linear-gradient(
+      rgb(208, 242, 190, 0.28),
+      rgb(208, 242, 190, 0.28)
+    ),
+    url(/images/ourclients.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.our-clients-black-bg {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7));
+  background-size: cover;
+}
+
+.client-card {
+  transition: transform 0.2s ease-out;
+}
+
+.client-card:hover {
+  transform: translateY(-15px);
+}
+
+.google-reviews {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/images/googleReviews.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.review {
+  background-color: rgb(228, 251, 216, 0.97);
+  height: 300px;
+}
+
+.owl-item .review {
+  transform: scale(0.8);
+}
+
+.owl-item.center .review {
+  transform: scale(1);
+}
+
+.client {
+  height: 85px;
+  width: 85px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.five-stars {
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+
+.client-text-review {
+  font-size: 13px;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+
+.review-card {
+  transition: transform 0.2s ease-out;
+}
+
+.review-card:hover {
+  transform: scale(0.85);
+}
+
+.owl-stage {
+  padding: 10px 0px;
+}
+
+.owl-item.center .review-card:hover {
+  transform: scale(1.05);
+}
+
+/* Owl CSS Carrousel */
+
+.owl-theme .owl-nav {
+  margin-top: 10px;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+  color: #fff !important;
+  font-size: 30px !important;
+  margin: 15px;
+  padding: 7px 7px;
+  background: #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px;
+  background: #e3550d !important;
+  text-decoration: none;
+  height: 45px;
+  width: 45px;
+  border-radius: 50px;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: #ea7d47 !important;
+  text-decoration: none;
+}
+
+.owl-theme .owl-nav .disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 10px;
+}
+
+.owl-theme .owl-dots {
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.owl-theme .owl-dots .owl-dot {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  background: #d6d6d6;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity 200ms ease;
+  border-radius: 30px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #e3550d;
+}
+
+.location-and-info {
+  background-image: linear-gradient(
+      hsla(148, 34%, 20%, 35%),
+      hsla(148, 34%, 20%, 35%)
+    ),
+    url(/images/location-and-info.jpg);
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.contact-section {
+  padding: 100px 0px;
+  background-image: linear-gradient(
+    hsla(120, 33%, 3%, 0.603),
+    hsla(149, 85%, 8%, 0.56)
+  );
+  background-size: cover;
+}
+
+ul {
+  list-style: none;
+}

@@ -1,0 +1,16 @@
+body {
+  background-color: #214331;
+}
+
+.back-link {
+  color: white;
+}
+
+.back-link:hover {
+  transform: scale(1.05);
+  color: #c85000;
+}
+
+.dark-green-bg {
+  background-color: hsl(147, 94%, 6%);
+}
