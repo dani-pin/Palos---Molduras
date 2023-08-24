@@ -93,7 +93,7 @@ gsap.to("#google-map", {
   duration: 1,
 });
 
-//Products carousel sync
+// Products carousel sync
 $(".carousel-sync").on("slide.bs.carousel", function (ev) {
   var dir = ev.direction == "right" ? "prev" : "next";
   $(".carousel-sync").not(".sliding").addClass("sliding").carousel(dir);
